@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Center</title>
+</head>
+
+<style>
+    body{
+        font-family: sans-serif;
+    }
+
+    .navbar {
+        white-space: nowrap;
+        background-color: #333333;
+        display: flex; 
+        height: 100px;
+    }
+
+    #logo {
+        font-style: italic;
+        font-family:sans-serif;
+        font-weight: bold;
+        color: #FFCC33;
+        background-color: #FFFFFF;
+        float: left;
+        padding-top: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #title {
+        font-family:sans-serif;
+        text-transform: uppercase;
+        font-size: 45px;
+        top: 0px;
+        left: 35%;
+        float: left;
+        position: absolute;
+        color: #FFFFFF;
+    }
+
+    .btn {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        font-size: 20px;
+        font-family:sans-serif;
+        background-color: #0099CC;
+        color: #FFFFFF;
+        border: none;
+        padding: 15px 30px;
+        text-align: inherit;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        font-size: 20px;
+        font-family:sans-serif;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        border: none;
+        padding: 15px 30px;
+        text-align: inherit;
+    }
+
+    #container {
+        display: flex;
+        object-fit: cover;
+        flex-wrap: wrap;
+        justify-content: inherit;
+        flex-direction: row;
+    }
+
+    #container div{
+        border-style: solid;
+        border-color: #FFFFFF;
+        margin: 10px;
+        box-shadow: 5px 5px 10px #333333;        
+    }
+
+    #container li {
+        font-family:sans-serif;
+        font-size: 14px;
+        font-weight: 100;
+        list-style: none;
+    }
+
+    .addbtn {
+        cursor: pointer;
+        margin: 25px;
+        font-size: 12px;
+        font-family:sans-serif;
+        background-color: #0099CC;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        text-align: inherit;
+    }
+
+    .addbtn:hover {
+        cursor: pointer;
+        margin: 25px;
+        font-size: 12px;
+        font-family:sans-serif;
+        background-color: #0000FF;
+        color: #FFFFFF;
+        border: none;
+        padding: 10px 20px;
+        text-align: inherit;
+    }
+</style>
+
+<head>
+    <script type="text/javascript" src="vehicleSelection.js"></script>
+</head>
+
+<body onload="carSelection()">
+    <div class="navbar">
+        <h1 id="logo">Hertz-UTS</h1>
+        <h1 id="title">Car Rental Center</h1>
+        <form action="shoppingCart.php"><input class="btn" type="submit" name="shoppingCart" value="Car Reservation"></form>
+    </div>
+    <div id="container" name="cars"></div>
+</body>
+
+</html>

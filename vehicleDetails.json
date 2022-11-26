@@ -1,0 +1,124 @@
+{
+    "vehicleDetails":[
+        {
+            "Catgory":"Sedan",
+            "Availability":"False",
+            "Brand":"BMW",
+            "Model":"320i",
+            "ModelYear":"2021",
+            "Mileage":"3855",
+            "FuelType":"Hybrid",
+            "Seats":"5",
+            "Price":"259",
+            "Description":"Popular Prestige Machine"
+        },
+        {
+            "Catgory":"Sedan",
+            "Availability":"True",
+            "Brand":"Toyota",
+            "Model":"Camry",
+            "ModelYear":"2019",
+            "Mileage":"9636",
+            "FuelType":"Petrol",
+            "Seats":"5",
+            "Price":"129",
+            "Description":"Excellent Reliability"
+        },
+        {
+            "Catgory":"SUV",
+            "Availability":"True",
+            "Brand":"Chevrolet",
+            "Model":"Captiva",
+            "ModelYear":"2020",
+            "Mileage":"6873",
+            "FuelType":"Petrol",
+            "Seats":"5",
+            "Price":"179",
+            "Description":"Plenty of Space"
+        },
+        {
+            "Catgory":"SUV",
+            "Availability":"True",
+            "Brand":"Jeep",
+            "Model":"Cherokee",
+            "ModelYear":"2020",
+            "Mileage":"9872",
+            "FuelType":"Hybrid",
+            "Seats":"7",
+            "Price":"199",
+            "Description":"Comfort and Convenience"
+        },
+        {
+            "Catgory":"Sedan",
+            "Availability":"True",
+            "Brand":"Honda",
+            "Model":"Civic",
+            "ModelYear":"2019",
+            "Mileage":"8145",
+            "FuelType":"Petrol",
+            "Seats":"5",
+            "Price":"139",
+            "Description":"Satellite Navigation System"
+        },
+        {
+            "Catgory":"SUV",
+            "Availability":"False",
+            "Brand":"Mercedes-Benz",
+            "Model":"GLC",
+            "ModelYear":"2019",
+            "Mileage":"7581",
+            "FuelType":"Hybrid",
+            "Seats":"7",
+            "Price":"269",
+            "Description":"Handle with Athleticism"
+        },
+        {
+            "Catgory":"Wagon",
+            "Availability":"True",
+            "Brand":"Volkswagen",
+            "Model":"Golf",
+            "ModelYear":"2018",
+            "Mileage":"10561",
+            "FuelType":"Petrol",
+            "Seats":"4",
+            "Price":"109",
+            "Description":"Athletic Handling"
+        },
+        {
+            "Catgory":"SUV",
+            "Availability":"True",
+            "Brand":"Suzuki",
+            "Model":"Jimny",
+            "ModelYear":"2019",
+            "Mileage":"7643",
+            "FuelType":"Petrol",
+            "Seats":"5",
+            "Price":"169",
+            "Description":"Off Road with Ease"
+        },
+        {
+            "Catgory":"Sedan",
+            "Availability":"True",
+            "Brand":"Hyundai",
+            "Model":"Sonata",
+            "ModelYear":"2019",
+            "Mileage":"10345",
+            "FuelType":"Petrol",
+            "Seats":"5",
+            "Price":"159",
+            "Description":"Attractive Space Inside"
+        },
+        {
+            "Catgory":"SUV",
+            "Availability":"False",
+            "Brand":"Nissan",
+            "Model":"X-trail",
+            "ModelYear":"2020",
+            "Mileage":"9436",
+            "FuelType":"Petrol",
+            "Seats":"7",
+            "Price":"169",
+            "Description":"Spacious Nissan SUV"
+        }
+    ]
+}
